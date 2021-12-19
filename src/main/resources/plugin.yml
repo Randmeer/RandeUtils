@@ -1,0 +1,26 @@
+name: RandeUtils
+version: ${project.version}
+main: tv.rande.randeutils.Main
+api-version: 1.18
+load: STARTUP
+authors: [Randmeer]
+website: rande.tv
+description: Rande's Utility Plugin
+
+commands:
+  date:
+    description: Shows you the date
+  info:
+    description: Shows server-information
+  menu:
+    description: Shows game-menu
+  timer:
+    description: Starts / Stops the Timer or shows it's settings
+  challenge:
+    description: Gives information about the challenge or opens the challenge-settings
+  help:
+    description: List of all useful commands
+  rndebug:
+    description: Debug informations
+  randemode:
+    description: ENTERS RANDEMODE
